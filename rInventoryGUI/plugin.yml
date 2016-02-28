@@ -1,0 +1,16 @@
+﻿name: rInventoryGUI
+version: 1.0.0
+main: org.ReanKR.rInventory.rInventoryGUI
+author: ReanKR
+description: the more better than World Teleporter.
+commands:
+  rInventoryGUI.main:
+    description: §erInventoryGUI Main command
+    aliases: [ri, rinventory]
+permissions:
+  rinventorygui.*:
+    description: §bAvailable rInventoryGUI all commands.
+    default: OP
+  rinventorygui.run:
+    description: no description.
+    default: true
